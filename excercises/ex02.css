@@ -1,0 +1,29 @@
+p {
+    color: rgb(128, 51, 0);
+    background: pink;
+    height: 10vh;
+    padding-top: 50px;
+    padding-left: 13vh;
+    padding-bottom: 5vh;
+    width: 24vh;
+    border: 10px dashed green;
+    font-family: cursive;
+
+}
+
+.high1 {
+    background: #aef39a;
+}
+
+.high2 {
+    background: #ffa6d8;
+}
+
+
+#mykitten {
+    width: 37vh;
+    border: 10px dashed green;
+    border-radius: 100vh;
+    border-style: dotted
+}
+

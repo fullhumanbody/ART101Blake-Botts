@@ -1,0 +1,49 @@
+BODY {
+    background: image(url(autumn.jpg));
+    padding: 10px;
+    background-color: rgb(1, 37, 1);
+}
+
+#background {
+    width: 100vh;
+    border: 10px rgb(1, 130, 27);
+    border-style: solid;
+    border-radius: 10vh;
+
+}
+
+p {
+    color: rgb(255, 255, 255);
+    
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    
+}
+
+.customhigh1 {
+    background:#a48541;
+}
+
+.customhigh2 {
+    background:#e61717;
+}
+
+.center-image{
+    display:flex;
+flex-direction: column;
+
+}
+
+.image-container1{
+    display:flex;
+}
+
+.image-container2{
+    display:flex;
+}
+
+.image-container3{
+    display:flex;
+}

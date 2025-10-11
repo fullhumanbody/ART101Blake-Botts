@@ -1,0 +1,32 @@
+BODY {
+    background: #046307;
+    padding: 50px;
+}
+
+H1,
+H2,
+H3 {
+    color: #a832a4;
+    font-family: cursive;
+}
+
+#mypic {
+    width: 200px;
+}
+
+#introduction h2 {
+    font-style: italic
+}
+
+#introduction p {
+    font-size: 120%
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+
+}
+

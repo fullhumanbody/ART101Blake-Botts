@@ -1,0 +1,59 @@
+.test-div {
+    background: pink;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+h2{ 
+    color:plum
+
+}
+
+.test-div{
+    color: cornflowerblue;
+}
+
+.test-div h2 {
+
+    color: darkcyan;
+
+}
+
+.test-div:hover{ background: orange
+}
+
+.test-div h2 {
+    color: blue
+}
+
+.test-div .special {
+
+    background: rgb(221, 236, 204);
+
+}
+
+
+.my-flex {display: flex;
+ background-color: DodgerBlue;
+
+
+}
+
+#house {
+    display: flex;
+    border: 10px solid rgb(128, 0, 83);
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    
+
+
+}
+
+#FART{
+
+    display:flex
+    flex-direction: column;
+
+}

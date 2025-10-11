@@ -1,0 +1,129 @@
+<!--
+
+<tagname attribute="value">
+    content
+</tagname>
+------------------------------------------------------------
+Headings <h1></h1>
+
+paragraphs <p></p>
+emphasis <em></em>
+Marking text for additional styling <span></span>
+Divisious for page layouts <div>    </div>
+New line force break <br/>
+Links to other pages <a href='url'>your link</a>
+images <img src="filename"/>
+ORdered list, unorderd list, list item <o1></o1>,<u1></u1>,<li></li> 
+
+<ol>
+
+---------------------------------------------------------------
+w3schools for help with HTML
+
+w3schools.com/tags/
+w3schools.com/html/
+------------------------------------------------------
+10/2- LECTURE 3
+
+webpages are sorted by neat and organized dedicated 
+languages and files
+
+EG; |Structure HTML| Content, TEXT, IMAGES| Function JS| Style CSS|
+
+Seperating every Layer is easier when websites are complicated.
+
+3 LAYERS- structure, function and presentation
+
+<html> tag says this is an html document. contains everything
+<head> is for technical nothing inside of this will be on the page
+<body> is on the visable page
+<title> will be shown in the browser tab
+<link> connects HTML file with accompanying files
+----------------------------------------
+p(selector) in the CSS window effects the P tag in HTML.
+-------------
+selector { property: value; }
+
+selector defines what HTML elements our rule applies to
+property is what aspect you are changing
+value is the setting for that property.
+
+-------------------------------
+
+selector1 { 
+	property1: value; 
+	property2: value; 
+}
+selector2 { 
+	property1: value; 
+	property2: value; 
+	property3: value;
+}
+
+you can do this endlessly
+
+---------------------------------------------
+
+Commmon CSS properties
+
+color: purple or  #c857c8; -> text color
+background: pink or  #f5dcf5;-> background color
+font-size: 18px or  150%; ->  size of the text
+font-family: sans-serif or  “Aria”; -> Typeface
+margin: 50px;-> spacing outside an element
+padding: 20px 50px 20px 10px;-> spacing inside an element
+border: 1px dashed green; -> line around an element
+width: 300px or  80%;->  how wide an element is
+height: 200px or  50vh;-> how tall an element is
+display: block or  inline or  flex->  layout behavior
+--------------
+w3schools.com/cssref/index.php (has hundreds of properties)
+-------------------------------------------
+CSS is very flexible
+
+You can create your own HTML tags that you define in CSS
+____---___
+IDs and Classes
+<p>Just an NPC paragraph nothing tp look at</p>
+<p id=”main-point” >This very special element is awarder with its own ID</p>
+<p class=”highlight” >This element belongs to many sharing the same class</p>
+<p  id=”main-point”  class=”highlight” >Well this one have both personality and class allegiance.</p>
+
+
+
+TAG {} Selects ALL html elements with the said tag
+p{... } will address all <p>
+.CLASS{} Selects ALL html elements with the said CLASS attribute
+.highlight {...} will address all <p class=”highlight>...</p>
+
+.high
+
+-----------------------------------------------------------------------------------------------------------
+
+Lecture 4 10/7/25
+
+DIVs-> today
+Every HTML element is either block or inline
+
+
+An inline element flows with the text around it .
+It does not start on a new line and only takes up as much width as neccessary.
+<a> link tags
+<span> tags
+<strong> 
+<em> tags
+
+A vlock element always
+starts on a new line
+- takes up the full width available.
+
+typical block elements:
+<div>
+<p>
+<h1>
+<li>
+
+
+
+
+-->
