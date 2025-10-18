@@ -123,7 +123,36 @@ typical block elements:
 <h1>
 <li>
 
+------------
+Java Script
+------------
+html-structure
+css- style
+java script- interaction and function
+
+interaction receives input from the user and responds
+
+A Statement in JS is a command or related chain of commands. one semicolon marks
+the end of the statement. EG:
+let phrase ="hey";
+"phrase" is abritary and defined by what it equals. no need to set the type of variable.
+
+Parantheses mean that data can be provided in between them.
+console.log(phrase)
+
+Curly Brackets are borders for blocks. Blocks are repeatable and semi-autonomous.
+{console.log(phrase);}
+
+Variables are like labeled boxes. We can put anything inside the box and edit it at any
+time. You cannot change a variables name.
+
+let variable="anything";
+
+to call variable, just say''' variable ''' in JS.
+
+.connects.words.together.like.spaces.
 
 
+.html effects anything within the opening and closing tags of specified id.
 
 -->
