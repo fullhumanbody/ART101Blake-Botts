@@ -1,7 +1,11 @@
 let totalNumber = 0;
+
+let colors = ["Orchid", "Coral", "HotPink", "Plum"];
+
 $("#needy-button").click(function () {
-    totalNumber = totalNumber + 3;
-    $("#needy-button").html(" ok i bet you cant click it more than " + totalNumber + " times");
+    $("#needy-button").html("Clicks " + totalNumber + " " + colors[totalNumber]+ " " + myDog.ears);
+    totalNumber = totalNumber + 1;
+
 
 });
 
@@ -17,5 +21,17 @@ $("#personal-buton").click(function () {
         $("#personal-buton").html("hello i am a cat");
     }
     isFirstClick = !isFirstClick; // Toggle between true and false
+
 });
+
+
+
+let myDog ={
+    name: "Lazy",
+    ears:2,
+    color: "Pink",
+    hasKittens: true,
+    purr: function(){console.log("grrrrrrrrrrrrrrrrr")},
+};
+
 
