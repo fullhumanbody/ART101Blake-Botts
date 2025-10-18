@@ -16,9 +16,9 @@ let section2 = {
 };
 
 // Print to page using jQuery
-$("#main-title").html(mainTitle );
-$("#intro-text").html(introtext);
-$("#section1").html("<h2 class='customhigh1' style='text-align: center;'>" + section1.heading + "</h2>");
+$("#main-title").append(mainTitle );
+$("#intro-text").append(introtext);
+$("#section1").append("<h2 class='customhigh1' style='text-align: center;'>" + section1.heading + "</h2>");
 $("#section1").append(section1.text);
-$("#section2").html("<h2 class='customhigh2' style='text-align: center;'>" + section2.heading + "</h2>");
+$("#section2").append("<h2 class='customhigh2' style='text-align: center;'>" + section2.heading + "</h2>");
 $("#section2").append(section2.text);
