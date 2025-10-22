@@ -1,0 +1,18 @@
+button#needy-button { 
+    color: rgb(39, 93, 38);
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+button#personal-buton {
+    background-color:rgb(206, 225, 187);
+    color:cadetblue;
+    padding: 50px;
+    font-size:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 40px;
+    box-shadow:rgb(39, 93, 38)
+}
