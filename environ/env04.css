@@ -76,3 +76,23 @@ h1 {
     display: block;
 }
 
+#hellobutton {
+    padding: 15px 40px;
+    font-size: 1.3em;
+    font-family: 'Courier New', monospace;
+    background: linear-gradient(145deg, #8b6f47, #6b5435);
+    color: #f4e4c1;
+    border: 3px solid #5a4a2a;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #4a3a1a, 0 8px 15px rgba(0,0,0,0.3);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    transition: all 0.2s;
+    display:inline-block;
+}
+
+
+#centerbutton{
+
+    text-align: center
+}
