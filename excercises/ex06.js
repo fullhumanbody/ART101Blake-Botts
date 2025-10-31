@@ -22,6 +22,16 @@ function redundant() {
     $("body").css("background-color", colors[colorCount]);
 }
 
+function changeBackground (newColor) {
+   $("body").css("background-color", newColor);
+ }
+
+$(".color-button").click( function () {
+ 
+   changeBackground(this.id);
+
+});
+
 
 $("#needy-button").click(function () {
     if (count < 5) { mood = "gresh and happy"; }
