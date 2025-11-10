@@ -1,0 +1,12 @@
+Jquery is a javascript library that makes coding in JS easier for website integration.
+ syntax = $(selector)action()
+ An "event" is a type of action that the webpage can respond to. Can be activated by the person interacting with the webpage.
+        .prompt, .click, .hover,
+        Events can be "fired" or activated.
+
+ "actions" are things like .append
+
+
+$("body").click(function(){
+
+});
