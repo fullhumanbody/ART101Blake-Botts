@@ -1,0 +1,29 @@
+#creature-form {
+   background: #eeeeee;
+   padding: 20px;
+   margin: 50px;
+}
+
+
+#creature-form DIV {
+    margin-bottom: 10px;
+}
+
+#creature-list>DIV {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.creature-body {
+    background: pink;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.eye { height: 18px; width: 10px; border: 2px solid #000; border-radius: 10px; background: #fff;}
+

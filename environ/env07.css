@@ -1,0 +1,117 @@
+BODY {
+    padding: 10px;
+    background-color: rgb(1, 37, 1);
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', monospace;
+}
+
+
+
+p {
+    color: rgb(255, 255, 255);
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+
+}
+
+.customhigh1 {
+    background:  #a48541;
+}
+
+.customhigh2 {
+    background: #e61717;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.image-container2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.center-image-flex {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-image-called-autumn {
+
+    padding-top: 10px;
+    max-height: auto;
+    max-width: 1500px;
+
+    background-image: url('images/autumn.jpg');
+
+    /*Had a stacking error with "autumn" and new images. Through extensive research (and asking ChatGPT how to set a background 
+    image using HTML and CSS, i found that calling the background image using Classes and CSS was generally considered 
+    best practice, rather than using a style: paramater or <img> tag in HTML*/
+
+    background-size:cover;
+    background-position: center;
+    border: 10px solid rgb(1, 130, 27);
+    border-radius: 5vh;
+    padding: 2vh;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1.5vh;
+}
+.image-container img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+#hellobutton {
+    padding: 15px 40px;
+    font-size: 1.3em;
+    font-family: 'Courier New', monospace;
+    background: linear-gradient(145deg, #8b6f47, #6b5435);
+    color: #f4e4c1;
+    border: 3px solid #5a4a2a;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #4a3a1a, 0 8px 15px rgba(0,0,0,0.3);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    transition: all 0.2s;
+    display:inline-block;
+}
+
+#hellobutton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 9px 0 #4a3a1a, 0 12px 20px rgba(0,0,0,0.4);
+}
+
+#hellobutton:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 #4a3a1a, 0 3px 5px rgba(0,0,0,0.2);
+}
+
+#centerbutton{
+
+    text-align: center
+}
+
+#section1{
+cursor: pointer;
+}
+
+#section2{
+cursor: pointer;
+}
+
